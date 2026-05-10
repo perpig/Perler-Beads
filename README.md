@@ -60,6 +60,13 @@ npm run preview
 | Artkal S 5mm | `src/data/palettes/artkal-s-5mm.json` | https://www.pixel-beads.com/zh/artkal-bead-color-chart |
 | Hama Midi | `src/data/palettes/hama-midi.json` | https://www.pixel-beads.com/zh/hama-bead-color-chart |
 
+### 🎨 数据覆盖范围
+* Perler: 76 色（含基础色、珠光色、金属色）
+* Hama Midi: 53 色（丹麦官方色号）
+* Artkal S-5mm: 159 色（Artkal 最主流的 5mm 硬豆系列）
+每个颜色包含：brand（品牌）、code（色号）、name（色名）、r/g/b（RGB 0-255）、hex（十六进制）。
+
+
 切换品牌后，需再点 **「生成拼豆图纸」** 才会用新色盘重算。
 
 ![色盘展示1](images/色盘1.png)
